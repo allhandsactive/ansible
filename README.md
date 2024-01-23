@@ -9,4 +9,4 @@
 
 ### 3dprinter-update.yaml
 
-* ansible-playbook -become-user -i servers.ini 3dprinter-update.yaml -kK
+* ansible-playbook -T 30 -b --ask-become-pass -i servers.ini 3dprinter-update.yaml
