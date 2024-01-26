@@ -1,5 +1,5 @@
 - name: Update debian packages
-  hosts: apt
+  hosts: 3dprinter
   tasks:
     - name: apt updates
       apt:
